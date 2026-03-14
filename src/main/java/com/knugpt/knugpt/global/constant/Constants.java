@@ -18,6 +18,11 @@ public class Constants {
             "/api/v1/oauth/**",
             "/swagger-ui/**",
             "/v3/api-docs/**",
-            "/api/v1/chats"
+            "/api/v1/chats",
+            "/api/v1/chats/stream"
+    );
+
+    public static List<String> STREAMING_AUTH_URLS = List.of(
+            "/api/v1/chat-rooms/*/chats/stream"
     );
 }
